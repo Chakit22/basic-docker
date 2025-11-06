@@ -76,6 +76,7 @@ docker logs webhook-server
 - Apps run INSIDE containers (isolated)
 - `-p` flag creates port mapping to access from localhost
 - Containers only run locally unless deployed to cloud
+- Here, we basically are running a container named `webhook-reciever` using the image which we have built named `webhook-reciever`
 
 ## Next Steps
 
